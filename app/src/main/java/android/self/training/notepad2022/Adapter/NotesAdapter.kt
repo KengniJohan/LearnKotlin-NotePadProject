@@ -14,7 +14,7 @@ import kotlin.random.Random
 class NotesAdapter(
     private val context : Context,
     val listener : NotesItemClickListener
-) : RecyclerView.Adapter<NotesAdapter.NoteViewHolder>
+) : RecyclerView.Adapter<NotesAdapter.NoteViewHolder>()
 {
 
     private val NotesList = ArrayList<Note>()
